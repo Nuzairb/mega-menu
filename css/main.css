@@ -53,4 +53,28 @@ nav .close-btn {
   cursor: pointer;
   fill: white;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 10% auto 0 auto;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (25%)[4];
+      grid-template-columns: repeat(4, 25%);
+  width: 80%;
+}
+
+nav ul a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+nav ul span {
+  color: grey;
+  display: block;
+  font-size: 1em;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=main.css.map */

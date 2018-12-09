@@ -44,10 +44,36 @@ nav {
     padding: 2em;
     width: calc(100% - 4em);
     height: calc(100vh - 4em);
+
     .close-btn {
         width: 18px;
         float: right;
         cursor: pointer;
         fill: white;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 10% auto 0 auto;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        width: 80%;
+
+        a {
+            color: white;
+            font-weight: bold;
+            font-size: 1.4em;
+        }
+        span {
+            color: grey;
+            display: block;
+            font-size: 1em;
+            margin-top: 20px;
+        }
+
+        li {
+
+        }
     }
 }
