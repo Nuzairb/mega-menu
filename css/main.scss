@@ -44,6 +44,7 @@ nav {
     padding: 2em;
     width: calc(100% - 4em);
     height: calc(100vh - 4em);
+    display: none;
 
     .close-btn {
         width: 18px;
@@ -76,4 +77,8 @@ nav {
 
         }
     }
+}
+
+.show-menu {
+    display: block;
 }
